@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.qait.automation.TatocPageObject.AppTest">
+        <methods>
+          <include name="openPage"/>
+          <include name="isLogoDisplayed"/>
+          <include name="checkForPageTitle"/>
+          <include name="checkForImageofTheuser"/>
+          <include name="LoginWithvalidPasswordAndvalidUserName"/>
+          <include name="closePage"/>
+          <include name="checkForPageHeader"/>
+        </methods>
+      </class> <!-- com.qait.automation.TatocPageObject.AppTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
