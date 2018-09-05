@@ -19,7 +19,7 @@ public class AppTest {
 
 	@BeforeClass
 	public void openPage() {
-		System.out.println("Uday kumar is a coder");
+		
 		String dir = System.getProperty("user.dir");
 		System.out.println(System.getProperty("user.dir"));
 		String chromedriver= "chromedriver";  		
@@ -32,6 +32,7 @@ public class AppTest {
 
 	  @Test
 	  public void LoginWithvalidPasswordAndvalidUserName() {
+		  driver.findElement(By.xpath("//*[contains(text(),\"Login Panel\")]")).click();
 		  driver.findElement(By.cssSelector("#txtUserName")).clear();
 		  driver.findElement(By.cssSelector("#txtUserName")).sendKeys("krishnachauhan");
 		  driver.findElement(By.cssSelector("#txtPassword")).clear();
